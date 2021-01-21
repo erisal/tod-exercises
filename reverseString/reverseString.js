@@ -1,5 +1,7 @@
-const reverseString = function() {
-
+const reverseString = function (input) {
+    return input.split('').reverse().join('');
 }
 
 module.exports = reverseString
+
+console.log(reverseString('hello there'));
